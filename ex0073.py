@@ -1,0 +1,6 @@
+times = ('Palmeiras', 'Santos', 'Vasco da Gama', 'Grêmio', 'Flamengo', 'Corinthians', 'Internacional', 'Cruzeiro', 'São Paulo', 'Atlético Mineiro', 'Botafogo', 'Fluminense', 'Coritiba', 'Bahia', 'Goiás')
+print(f'Lista de time do brasileirao {times}')
+print(f'Os 5 primeiros sao {times[0:5]}')
+print(f'Os 4 ultimos sao {times[-4:]}')
+print(f'Times em ordem alfabetica {sorted(times)}')
+print('O Palmeiras esta na posicao {}'.format(times.index('Palmeiras')+1))

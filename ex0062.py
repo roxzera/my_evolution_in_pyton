@@ -1,0 +1,20 @@
+inicio = int(input('Digite o primeiro numero da PA: '))
+pa = int(input('Digite a PA: '))
+cont = 1
+termo = inicio
+mais = 1
+maisum = 1
+final = 0
+while mais != 0:
+    while cont <= 10:
+        print('{} -> '.format(inicio), end='')
+        inicio += pa
+        cont += 1
+        final = inicio
+    print('PAUSA!')
+    mais = int(input('Quer contar ate qual? '))
+    maisum = 1
+    while maisum <= mais:
+        print('{} -> '.format(final), end='')
+        final += pa
+        maisum += 1
